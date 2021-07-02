@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  font-size:62.5%;
+   
+}
+.main_div{
+ 
+  position:static ;
+  width: 100%;
+}
+
+#home,#items,#Aboutus,#contact{
+    font-size: 2rem;
+    margin: 0rem 0rem 0rem 2rem;
+}
+#contact{
+    margin-right: 2rem;
+}
+#bhartimedical{
+    font-size: 3rem;
+    margin-left: 5rem;
+  
+}
+#homes{
+ width: 100%;
+ height: 62rem;
+ margin: -16rem 0rem 0rem 0rem;
+  position: relative;
+display: flex;
+
+}
+.images{
+    width: 38rem;
+    height: 31rem;
+    margin: 30rem 8rem 0rem 6rem;
+border-radius: 10%;
+overflow: hidden;  
+box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+}
+.p{
+margin-left: 2rem; 
+margin-top: 30rem;
+margin-right: 20rem;
+height: 25rem;
+font-size: 2rem;
+box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+padding: 2rem 2rem 2rem 2rem;
+border-radius: 2rem;
+}
+
+.item{
+    width: 90%;
+    height: 155rem;
+    font-size: 2rem;
+    margin: 0rem 0rem 0rem 3rem;
+    /* background: #97989c; */
+
+}
+.itemsDiv{
+    width: 100%;
+    height: 48rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr  ;
+    margin-top: 10rem;
+   
+}
+.itemsDiv  .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10{
+width: 35rem;
+height: 30rem;
+box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+/* margin-bottom: -15rem; */
+border-radius: 2rem;
+margin: 0rem 11rem 7rem 0rem;
+
+}
+.itemsDiv img{
+    width: 25rem;
+height: 20rem;
+border-radius: 2rem;
+box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+}
+.h2{
+       font-family: 'Akaya Kanadaka', cursive;
+    
+}
+.about{
+    width: 100%;
+    height: 70rem;
+    display: flex;
+
+
+}
+.paragraph{
+  width: 100%;
+  height: 50rem;
+    font-size: 2rem;
+    box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+    border-radius: 2rem;
+    margin-left: 5rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+ 
+
+.owner{
+
+    margin-left: 21rem ;
+border-radius: 2rem;
+box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+margin-right: 5rem;
+}
+.divp1,.divp2,.divp3,.divp4,.divp5,.divp6,.divp7,.divp8,.divp9,.divp10{
+    color: #cff6fc;
+}
+.abouth1{
+    font-family: 'Akaya Kanadaka', cursive;
+    position: absolute;
+    top: 230rem;
+    left: 63rem;
+    font-size: 5rem;
+    color: #8f8f94;
+
+}
+.contacth1{
+    font-family: 'Akaya Kanadaka', cursive;
+    position: absolute;
+top: 310rem;
+    left: 63rem;
+    font-size: 5rem;
+    color: #8f8f94;
+    font-weight: bold;
+}
+.contactus{
+    width: 100%;
+    height: 70rem;
+    
+
+
+}
+
+
+.form{
+    width: 100%;
+    height: 550px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 82px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 82px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+input[type=number]:focus {
+  border: 3px solid #555;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4b4c4f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 82px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #97989c;
+}
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  
+}
+::placeholder {
+ font-size:1.7rem;
+ font-family: 'Akaya Kanadaka', cursive;
+}
+@media (max-width:1280px) {
+  .p{
+  height: 35rem;
+  }
+  #homes{
+    height: 67rem;
+  }
+}
+@media (max-width:768px){
+  #homes{
+    display: inline;
+
+
+  }
+  .p{
+    width: 90rem;
+    margin-left:20rem; 
+margin-top: 14rem;
+margin-right: 20rem;
+font-size: 3rem;
+height: 50rem;  
+}
+#bhartimedical{
+  font-size: 4rem;
+}
+#home,#items,#Aboutus,#contact{
+  font-size: 3rem;
+}
+i{
+ position: absolute;
+}
+.images{
+  width: 91rem;
+  height: 52rem;
+  margin: 8rem 8rem 0rem 19rem;
+border-radius: 10%;
+
+}
+.paragraph{
+  width: 90rem;
+  margin-left:20rem; 
+margin-top: 36rem;
+margin-right: 20rem;
+font-size: 3rem;
+height: 50rem;  
+}
+.about{
+  display: inline;
+  height:70rem ;
+  background: #97989c;
+}
+.owner{
+  width: 91rem;
+  height: 67rem;
+  margin: 8rem 8rem 46rem 19rem;
+border-radius: 10%;
+}
+.contacth1{
+  position: absolute;
+  top: 475rem;
+  left: 63rem;
+  font-size: 9rem;
+}
+.abouth1{
+  position: absolute;
+  top: 310rem;
+  left: 57rem;
+  font-size: 9rem;
+}
+.h2{
+  margin-right: -49.5rem;
+  /* margin-top: 22rem; */
+font-size: 5rem;
+}
+.itemsDiv{
+  grid-template-columns: 1fr 1fr;
+}
+.itemsDiv  .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10{
+  width: 52rem;
+  height: 38rem;
+ 
+  /* margin-bottom: -15rem; */
+  border-radius: 2rem;
+  margin: 0rem 6rem 7rem 0rem;
+  
+  }
+  .itemsDiv img{
+    width: 35rem;
+height: 29rem;
+border-radius: 2rem;
+box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
+}
+.itemsDiv p{
+  font-size: 3.5rem;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+.itemsDiv .div9,.div10{
+margin-top: 2rem;
+}
+.item{
+  height: 250rem;
+  
+
+}
+}
